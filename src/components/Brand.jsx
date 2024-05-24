@@ -9,7 +9,7 @@ import brand5 from "../assets/5.png";
 
 const Brand = ()=>{
     return(
-        <div className="brand">
+        <div className="brand"  id="shop">
         <img src={brand1} alt="brand" />
         <img src={brand2} alt="brand" />
         <img src={brand3} alt="brand" />

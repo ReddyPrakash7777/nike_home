@@ -11,7 +11,7 @@ import p8 from "../assets/p8.jpg";
 
 const Latestproducts = () => {
     return (
-        <div className="latest_products">
+        <div className="latest_products" id="blog">
             <div className="product_title">
                 <h2>Latest Products</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum accusamus illo culpa dignissimos at earum

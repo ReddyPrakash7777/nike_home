@@ -6,14 +6,13 @@ import "./home.css";
 const Home = () => {
     return (
         <>
-            <div className="nav-bar">
+            <div className="nav-bar" id="home">
                 <img className="logo" src={logo} alt="logo"/>
                     <nav>
-                        <li><a href="#">HOME</a></li>
-                        <li><a href="#">SHOP</a></li>
-                        <li><a href="#">BLOG</a></li>
-                        <li><a href="#">PAGES</a></li>
-                        <li><a href="#">CONTACT</a></li>
+                        <li><a href="#home">HOME</a></li>
+                        <li><a href="#shop">SHOP</a></li>
+                        <li><a href="#blog">BLOG</a></li>
+                   
                     </nav>
             </div>
 
