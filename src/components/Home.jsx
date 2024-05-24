@@ -20,7 +20,7 @@ const Home = () => {
             <div className="header">
                 <div className="content">
                     <h1>Nike New <br /> Colleciton!</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam laudantium rem aliquam consequuntur
+                    <p className="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam laudantium rem aliquam consequuntur
                         molestias distinctio praesentium necessitatibus libero voluptates, aspernatur illum odit perspiciatis
                         est nesciunt animi quia quibusdam beatae? Consectetur.</p>
                     <div className="sub-content">

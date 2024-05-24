@@ -64,3 +64,48 @@ li{
     top: 10%;
     right: 14%;
 }
+
+
+@media (max-width:1030px){
+
+    .header{
+        height: 400px;
+    }
+    .show_in_header{
+        width: 400px;
+        right: 8%;
+    }
+
+    .lorem{
+        font-size: 12px;
+    }
+
+    .content{
+        padding-top: 10%;
+    }
+}
+
+@media (max-width:500px){
+    .show_in_header{
+        display: none;
+    }
+    .content{
+        padding-top: 30%;
+        width: 90%;
+    }
+
+    .content > * {
+        margin: 5px auto;
+
+    }
+
+  
+    .lorem{
+        font-size: 13px;
+        text-align: center;
+    }
+
+  
+
+  
+}
