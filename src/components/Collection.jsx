@@ -11,19 +11,19 @@ const Collection = () => {
         <div className="collection">
             <div className="collection_first">
                 <div className="first">
-                    <img src={c1} alt="categories"/>
-                        <img src={c2} alt="categories"/>
-                        </div>
-                        <div className="second">
-                            <img src={c3} alt="categories"/>
-                                <img src={c4} alt="categories"/>
-                                </div>
-                        </div>
-                        <div className="collection_second">
-                            <img className="collection_img" src={c5} alt="categories"/>
-                        </div>
+                    <img className="collimg" src={c1} alt="categories" />
+                    <img className="collimg" src={c2} alt="categories" />
                 </div>
-                );
+                <div className="second">
+                    <img className="collimg" src={c3} alt="categories" />
+                    <img className="collimg" src={c4} alt="categories" />
+                </div>
+            </div>
+            <div className="collection_second">
+                <img className="collection_img collimg" src={c5} alt="categories" />
+            </div>
+        </div>
+    );
 }
 
-                export default Collection;
+export default Collection;

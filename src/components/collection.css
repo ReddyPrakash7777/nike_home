@@ -1,5 +1,6 @@
 .collection{
     display: flex;
+    width: 100%;
 }
 .collection_first{
     width: 100%;
@@ -11,4 +12,33 @@
 .colletion_img{
     width: inherit; 
     height: inherit;
+}
+
+@media only screen and (max-width: 1200px) {
+    /* Your CSS rules go here */
+    .collection{
+        flex-direction: column;
+    }
+
+    .collection_first{
+        flex-basis: 100%;
+        margin: auto;
+    text-align: center;    
+    }
+
+    .collection_second{
+       flex-basis: 100%;
+       margin: auto;
+    }
+}
+
+@media screen and ( max-width:500px){
+ .collection{
+    padding: 15px;
+    text-align: center;
+ }
+
+ .collimg{
+    width: 100%;
+ }
 }
