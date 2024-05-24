@@ -1,15 +1,20 @@
+.container{
+    width: 100%;
+    margin: auto;
+}
+
+
 .deal-weak{
     text-align: center;
-    padding: 40px;
+    padding: 10px;
 }
-.deal_header{
-    text-align: center;
-}
+
 .deals{
     display: flex;
     justify-content: space-around;
     width: 100%;
     margin: 20px;
+    padding: 5px;
 }
 .deal1{
     display: grid;
@@ -20,4 +25,36 @@
     display: flex;
     justify-content: center;
     align-items: center   ;
+    padding: 20px;
+
+}
+
+@media (max-width:1200px){
+    .deals{
+        flex-direction: column;
+        text-align: center;
+        margin: auto;
+    }
+
+    .deals > * {
+        padding: 20px;
+    }
+}
+
+@media (max-width:500px){
+    .container_para{
+        font-size: 12px;
+        text-align: center;
+    }
+    .deal1{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .deal_end{
+        width: 100%;
+
+    }
+    .deal_end_img{
+       width: inherit;
+    }
 }

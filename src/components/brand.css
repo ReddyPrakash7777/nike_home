@@ -1,9 +1,31 @@
-.brand{
+.brand {
     display: flex;
     justify-content: space-between;
-    margin-left: 200px;
-    margin-right: 200px;
-    /* margin-top: 50px; */
-    opacity: 0.5;
+    width: 100%;
+    padding: 20px 100px;
+    /* border: 3px solid red; */
+    align-items: center;
+    margin-top: 10px;
 }
 
+@media screen and (max-width:1200px) {
+    .brand {
+        flex-wrap: wrap;
+    }
+
+    .brand > * {
+        max-width: 100px;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .brand {
+        flex-direction: column;
+    }
+
+    .brand > * {
+        flex-basis: 100%;
+        margin: 15px 0px;
+    }
+}
