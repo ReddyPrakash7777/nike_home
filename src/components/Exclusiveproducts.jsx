@@ -14,9 +14,9 @@ const Exclusiveproducts = () => {
             </div>
             <div>
                 <div id="exclusive_products2" >
-                    <img src={prev} alt="prev" />
-                    <img src={ep1} alt="exclusive" />
-                    <img src={next} alt="next" />
+                    <img  src={prev} alt="prev" />
+                    <img className="exclusive_img" src={ep1} alt="exclusive" />
+                    <img  src={next} alt="next" />
                 </div>
                 <h5 className="exclusive_h5">ADDIDAS NEW HAMMER SOLE FOR SPORTS PERSON</h5>
             </div>
