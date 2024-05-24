@@ -12,7 +12,8 @@ const Home = () => {
                         <li><a href="#home">HOME</a></li>
                         <li><a href="#shop">SHOP</a></li>
                         <li><a href="#blog">BLOG</a></li>
-                   
+                        <li><a href="#exclusive_products">exclusive_products</a></li>
+                        
                     </nav>
             </div>
 
