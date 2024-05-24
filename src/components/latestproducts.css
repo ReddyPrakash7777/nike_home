@@ -1,0 +1,12 @@
+.latest_products{
+    margin-top: 40px;
+}
+.product_title{
+    text-align: center;
+}
+.products{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-left: 100px;
+}

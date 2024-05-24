@@ -1,0 +1,14 @@
+.collection{
+    display: flex;
+}
+.collection_first{
+    width: 100%;
+    margin-left: 80px;
+}
+.collection_second{
+    margin-right: 100px;
+}
+.colletion_img{
+    width: inherit; 
+    height: inherit;
+}

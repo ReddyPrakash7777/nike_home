@@ -1,0 +1,23 @@
+.deal-weak{
+    text-align: center;
+    padding: 40px;
+}
+.deal_header{
+    text-align: center;
+}
+.deals{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 20px;
+}
+.deal1{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    flex-basis: 60%;
+}
+.deal1 > *{
+    display: flex;
+    justify-content: center;
+    align-items: center   ;
+}
