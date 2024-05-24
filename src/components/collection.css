@@ -9,9 +9,19 @@
 .collection_second{
     margin-right: 100px;
 }
-.colletion_img{
+.collection_img{
     width: inherit; 
-    height: inherit;
+    height: 500px;
+}
+.collimg{
+    height: 250px;
+    padding: 10px;
+}
+.img1{
+    width: 70%;
+}
+.img2{
+    width: 30%;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -36,6 +46,10 @@
  .collection{
     padding: 15px;
     text-align: center;
+ }
+
+ .collimg1{
+    width: 100%;
  }
 
  .collimg{

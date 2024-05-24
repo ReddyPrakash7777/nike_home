@@ -11,16 +11,16 @@ const Collection = () => {
         <div className="collection">
             <div className="collection_first">
                 <div className="first">
-                    <img className="collimg" src={c1} alt="categories" />
-                    <img className="collimg" src={c2} alt="categories" />
+                    <img className="collimg img1" src={c1} alt="categories" />
+                    <img className="collimg img2" src={c2} alt="categories" />
                 </div>
                 <div className="second">
-                    <img className="collimg" src={c3} alt="categories" />
-                    <img className="collimg" src={c4} alt="categories" />
+                    <img className="collimg img2" src={c3} alt="categories" />
+                    <img className="collimg img1" src={c4} alt="categories" />
                 </div>
             </div>
             <div className="collection_second">
-                <img className="collection_img collimg" src={c5} alt="categories" />
+                <img className="collection_img collimg1" src={c5} alt="categories" />
             </div>
         </div>
     );
